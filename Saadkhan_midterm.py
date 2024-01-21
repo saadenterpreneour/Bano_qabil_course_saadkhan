@@ -13,14 +13,17 @@ num1 = int(input("Entet the first number"))
 num2 = int(input("Enter the second number"))
 s=num1+num2
 print("sum :" ,s)
+
 num3 = int(input("Enter the third number"))
 num4 = int(input("Enter the fourth number"))
 e=num3/num4
 print("division :" ,e)
+
 num5 = int(input("Enter the fifth number"))
 num6 = int(input("Enter the sixth number"))
 t=num5**num6
 print("power :" ,t)
+
 num7 = int(input("Enter the seventh number"))
 num8 = int(input("Enter the eighth number"))
 p=num7//num8
@@ -41,17 +44,17 @@ print("Temperature in Fahrenheit :", fahrenheit)
 
 #Qustion number 4
 # write a python program that return all datatypes that we  discussed in the class.
-m=int(input("Enter any number"))
-print("Your first input type is" ,type(m))
-n=float(input("Enter any point number"))
+m=5
+print(f"Your first input type {m} is: {type(m)}")
+n=5.6
 print("Your second input type is " ,type(n))
-o=str(input("Enter any name"))
+o="saad khan"
 print("Your third input type is" ,type(0))
-r=bool(input("true,false"))
+r=True
 print("your fourth input type is" ,type(r))
-s=list(input("square bracket"))
+s=[1,23,5]
 print("your fifth data type is" ,type(s))
-y=tuple(input("circle bracket"))
+y={1,2,3}
 print("your sixth data type is" ,type(y))
-i=set(input("round bracket"))
+i=(1,2,3)
 print("your seven data type is" ,type(i))
